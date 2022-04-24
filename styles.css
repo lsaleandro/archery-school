@@ -1,0 +1,146 @@
+body {
+  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'BIZ UDPGothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+}
+.navmenu {
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  color: black;
+  top: 0;
+  text-decoration: none;
+  position: fixed;
+  width: 100%;
+  float: left;
+  font-size: 30px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #87CEFA;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  padding: 30px;
+  width: 400px;
+}
+h1 {
+  padding: 10px;
+}
+h2 {
+  padding: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 230px 230px 230px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px 30px;
+  padding: 10px;
+}
+.class1 {
+  background-color: #F0F8FF;
+  height: 230px;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+.class2 {
+  background-color: #F0F8FF;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+.class3 {
+  background-color: #F0F8FF;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+
+.private1 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  background-color: #00BFFF;
+}
+.private2 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  background-color: #00BFFF;
+}
+.private3 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  background-color: #00BFFF;
+}
+.grid2-container {
+  display: grid;
+  grid-template-rows: 280px 280px 280px 280px;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 60px 60px;
+  padding: 20px;
+}
+.school-history {
+  background-color: #F0F8FF;
+  height: 280px;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.student-info {
+  background-color: #F0F8FF;
+  height: 230px;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.user-info {
+  background-color: #F0F8FF;
+  height: 230px;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+section {
+  align-items: center;
+}
+.instructors-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#footerimg {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-left: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+
+}
+footer {
+  height: 30rem;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-color: #ADD8E6;
+
+}
+.footer2 {
+  background-color: #ADD8E6;
+}
