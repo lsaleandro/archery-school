@@ -21,6 +21,14 @@ body {
   overflow: hidden;
   background-color: #87CEFA;
 }
+video {
+  padding: 10px;
+  padding-top: 10px;
+  position: absolute;
+  left: 40%;
+  top: 5%;
+
+}
 a {
   text-decoration: none;
   color: black;
@@ -136,13 +144,17 @@ h5{
   background-color: #ecb722;
   justify-content: flex-start;
   align-content: flex-start;
-  padding: 20px;
+  padding: 8px;
   flex-direction: row;
 }
 .teacher {
-  
+  padding-right: 10px;
   text-align: justify;
-
+}
+.teacher:hover {
+  color: white;
+  background-color: dodgeblue;
+  text-decoration: none;
 }
 #footerimg {
   position: relative;
